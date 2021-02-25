@@ -89,9 +89,7 @@ class LoginBox extends Component {
                                 Email or Password Wrong!
                             </div>
                             <form id="login-form" onSubmit={this.handleSubmitLogin} style={{ display: this.state.default_content }}>
-                                {/* <div className={this.state.isTrue} role="alert">
-                                    {this.state.messageisTrue}
-                                </div> */}
+                               
                                 <div className="form-group">
                                     <input
                                         type="text"
